@@ -1,14 +1,20 @@
 # CBL-OpenSim
-Collection of various scripts and functions associated with automation and batch processing in OpenSim MSK software.
+## Infant head-neck musculoskeletal modeling pipeline 
+  _Boise State University, 2026_
 
-This repository serves as the documentation hub and home to a handful of scripts used for processing models in OpenSim. Primary use cases include:
-1. Model scaling
-2. Inverse kinematics (IK)
-3. Inverse dynamics (ID)
-4. Static optimization (SO)
-5. Computed muscle control (CMC) (planned)
-6. Batch processing for all of the above (with parallel computing available for MATLAB and Python (planned))
+This repository contains MATLAB, OpenSim, and supporting workflow tools for processing infant head-neck modeling data, including motion capture, ground reaction force processing and/or simulation, inverse dynamics, static optimization, and model analysis.
 
-Existing scripts additionally include specific use case tools for plotting and visualization outside of the native OpenSim GUI.
+### Repository Layout
 
-Tutorials for new users of OpenSim utilize the GUI to demonstrate standard operations such as IK, ID, SO, and scaling.
+### Requirements
+
+### Setup
+
+### Typical Workflow
+
+### Data Privacy
+*IMPORTANT*
+
+### Current Status
+
+_Contact: drewbossert@u.boisestate.edu, 2026_
