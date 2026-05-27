@@ -1,4 +1,4 @@
-## (Inverse) Kinematics Processing Utilities
+# (Inverse) Kinematics Processing Utilities
 
 This package contains utilities for computing inverse kinematics given motion profile inputs.
 
