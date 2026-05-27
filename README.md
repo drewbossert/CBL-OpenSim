@@ -16,5 +16,5 @@ This repository contains MATLAB, OpenSim, and supporting workflow tools for proc
 *IMPORTANT*
 
 ### Current Status
-
+This repository is under active organization. Existing scripts are being migrated into reusable packages and documented workflows.
 _Contact: drewbossert@u.boisestate.edu, 2026_
