@@ -1,0 +1,180 @@
+# ============================================================
+# Operating system files
+# ============================================================
+
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+
+# ============================================================
+# Editor and IDE files
+# ============================================================
+
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.idea/
+*.swp
+*.swo
+
+
+# ============================================================
+# MATLAB temporary/generated files
+# ============================================================
+
+*.asv
+*.m~
+*.mex*
+*.fig
+*.mlx.autosave
+slprj/
+codegen/
+html/
+
+
+# ============================================================
+# MATLAB data files
+# Usually avoid committing binary workspace data unless intentional
+# ============================================================
+
+*.mat
+
+
+# ============================================================
+# Python temporary/generated files
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+.ipynb_checkpoints/
+.pytest_cache/
+
+
+# ============================================================
+# OpenSim generated outputs
+# ============================================================
+
+results/
+result/
+outputs/
+output/
+analysis/
+Analysis/
+Reports/
+reports/
+
+*_InverseDynamics_*.sto
+*_StaticOptimization_*.sto
+*_BodyKinematics_*.sto
+*_Kinematics_*.sto
+*_PointKinematics_*.sto
+*_JointReaction_*.sto
+*_states.sto
+*_controls.sto
+*_activation.sto
+*_force.sto
+
+
+# ============================================================
+# OpenSim / biomechanics data files
+# Default: ignore raw/generated data files
+# Commit only small anonymized examples through explicit exceptions below
+# ============================================================
+
+*.mot
+*.sto
+*.trc
+*.c3d
+*.anc
+*.forces
+*.grf
+*.csv
+*.tsv
+*.xlsx
+*.xls
+
+
+# ============================================================
+# Geometry and mesh files
+# Usually too large or derived from protected source data
+# ============================================================
+
+*.stl
+*.obj
+*.ply
+*.vtk
+*.vtp
+*.vtu
+*.msh
+*.foam
+
+
+# ============================================================
+# Medical image / CT / segmentation files
+# Do not commit protected or source imaging data
+# ============================================================
+
+*.dcm
+*.nii
+*.nii.gz
+*.nrrd
+*.nhdr
+*.mha
+*.mhd
+*.seg.nrrd
+
+
+# ============================================================
+# Local/private configuration
+# ============================================================
+
+local_config.*
+paths_config.*
+private_config.*
+credentials.*
+secrets.*
+.env
+
+
+# ============================================================
+# Logs and temporary files
+# ============================================================
+
+*.log
+*.tmp
+*.temp
+*.bak
+~$*
+temp/
+tmp/
+
+
+# ============================================================
+# Allow selected template/example files
+# ============================================================
+
+!data_templates/**/*.mot
+!data_templates/**/*.sto
+!data_templates/**/*.trc
+!data_templates/**/*.csv
+!data_templates/**/*.xml
+
+!tutorials/tutorial_data/**/*.mot
+!tutorials/tutorial_data/**/*.sto
+!tutorials/tutorial_data/**/*.trc
+!tutorials/tutorial_data/**/*.csv
+!tutorials/tutorial_data/**/*.xml
+
+!opensim/setup_templates/**/*.xml
+!opensim/analysis_templates/**/*.xml
+!opensim/actuator_templates/**/*.xml
+
+!config/example_*
+!**/README.md
